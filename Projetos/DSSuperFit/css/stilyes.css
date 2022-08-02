@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --color-red: #F03C42;
+    --color-bg: #222374;
+    --color-bg2: #cccccc;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
+header {
+    background-color: var(--color-red);
+    height: 100px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    display: flex;
+}
+
+nav h1 {
+    display: flex;
+    text-align: left;
+    font-size: 20px;
+}
+
+nav a {
+    padding-left: 5px;
+    max-width: 1200px;
+    text-align: center;
+}
+
+#link-header {
+    display: flex;
+    align-items: center;
+}
+
+#about {
+    background-color: var(--color-bg);
+    padding-top: 20px;
+    height: 420px;
+}
+
+.container-about {
+    width: 100%;
+    max-width: 1200px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    display: flex;
+    color: #fff;
+}
+
+.container-about h2{
+    padding-bottom: 30px;
+}
+
+.card-about {
+    background-color: var(--color-bg2);
+    padding: 20px;
+    color: #000;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.card-about h3 {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.card-about p {
+    font-size: 14px;
+}
+
+.container-modalities {
+    width: 100%;
+    max-width: 1200px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container-modalities h2 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: var(--color-red);
+}
+
+#modalities {
+    height: 880px;
+}
+
+.card-modalities {
+    background-color: var(--color-bg);
+    padding: 20px;
+    color: #fff;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.card-modalities h3 {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.card-modalities p {
+    font-size: 14px;
+}
+
+footer {
+    padding: 60px;
+    background-color: #000;
+    height: 260px;
+    color: #fff;
+    font-size: 14px;
+    align-items: center;
+}
+
+footer p {
+    padding-top: 35px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer address {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.link-footer {
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+}
+
+.link-footer a {
+    width: 25px;
+    padding-left: 5px;
+    text-align: center;
+}
